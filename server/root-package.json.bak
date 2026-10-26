@@ -1,0 +1,27 @@
+{
+  "name": "confirmrail-train-ticket-system",
+  "version": "1.0.0",
+  "description": "ConfirmRail - Real-Time Indian Railways Ticket Booking System (Client-Server Architecture)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "train",
+    "booking",
+    "tracking",
+    "realtime",
+    "socket.io",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Academic Project Team",
+  "license": "MIT"
+}
